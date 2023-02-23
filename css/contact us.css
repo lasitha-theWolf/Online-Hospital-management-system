@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(../Images/bk.jpg);
+    background-size: 1550px 950px;
+    background-repeat: no-repeat;
+}
+header{
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    padding: 20px 100px;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    width: 200px;
+}
+.navbar{
+    display: flex;
+    background-attachment: scroll;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+}
+.navbar a:hover{
+    background-color: rgba(239, 144, 144, 0.497);
+    transition: all ease 0.5s;
+}
+.bu6 .btn{
+    flex: 1 1 7rem;
+    display: block;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #B8860B;
+    color: black;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;    
+}
+.bu6 .btn:hover{
+    background: darkblue;
+}
+.logotext{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.trophy img{
+    width: 100px;
+    margin-left: 30px;
+    
+}
+.logotext{
+    display: flex;
+}
+.para{
+    font-weight: 50;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+    
+}
+.store img{
+    width: 150px;
+}
+.store h6{
+    color: white;
+    left: 1rem;
+}
+.store{
+  
+  margin-left: 100px;
+  margin-top: 5px;
+ 
+    
+}
+.store .c2{
+    display: flex;
+    gap: 1rem;
+}
+.store .c2 a img:hover{
+    background-color: red;
+    transition: all ease 0.5s;
+}
+.newsletter{
+    
+    background-color: black;
+}
+.social{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 100px;
+   
+}
+.social a img{
+    
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+.social a img:hover{
+    background-color: grey;
+    transition: all ease 0.5s;
+}
+.copyright{
+    
+    border-style: dashed;
+    color: rgb(185, 184, 184);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+  
+}
+
+.contactHead{
+    margin-bottom: 10%;
+    text-align: left;
+    color: white;
+    padding: 20px 750px;
+    
+}
+.cHead{
+    text-align: right;
+    color: white;
+    padding: 20px 550px;
+    font-size :xx-large;
+    margin: 20px;
+    font-style: bold;
+}
+.vl {
+    border-left: 3px solid goldenrod;
+    height: 500px;
+    position: absolute;
+    left: 45%;
+    margin-left: 3px;
+    margin-top: 270px;
+    top: 0;
+}
+.info{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 500px;
+    border: 5px solid goldenrod;
+    padding: 40px;
+    position: absolute;
+    left: 5%;
+    margin-left: 3px;
+    margin-top: 280px;
+    top: 0;
+}
+.infoH{
+    text-align: center;
+    font-size: 30px;
+    font-style:inherit;
+}
+

@@ -1,0 +1,347 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(../Images/bk.jpg);
+    background-size: 1550px 950px;
+    background-repeat: no-repeat;
+}
+header{
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    padding: 20px 100px;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.button{
+    text-align: center;
+    border: none;
+    color: lightskyblue;
+    font-size: 24px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    height: 20px;
+}
+.t2{
+    color: antiquewhite;
+    padding-left: 10rem;
+}
+.bar img{
+    display: block;
+    width: 30cm;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.logo{
+    width: 200px;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+}
+.navbar a:hover{
+    background-color: rgba(239, 144, 144, 0.497);
+    transition: all ease 0.5s;
+}
+.logotext{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.trophy img{
+    width: 100px;
+    margin-left: 30px;
+}
+.logotext{
+    display: flex;
+}
+.para{
+    font-weight: 50;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;   
+}
+.store img{
+    width: 150px;
+}
+.store h6{
+    color: white;
+    left: 1rem;
+}
+.store{
+  margin-left: 100px;
+  margin-top: 5px;    
+}
+.store .c2{
+    display: flex;
+    gap: 1rem;
+}
+.store .c2 a img:hover{
+    background-color: red;
+    transition: all ease 0.5s;
+}
+.register-form{
+    padding-left: 33rem;
+}
+.form_container form {
+    max-width: 500px;
+    position: relative;
+    align-items: center;
+    background: lightblue;
+    padding: 80px 60px;
+    border-radius: 0.5rem;
+}
+.form_container form:hover {
+    border-color: #000000;
+    border-radius: 40px;
+    border: 1.5px solid black;
+    box-shadow: 0 0 5px #248e9c,
+      0 0 25px #248e9c,
+      0 0 47px#248e9c,
+      0 0 10px#248e9c;
+
+}
+.Utype{
+    font-size:1rem;
+
+}
+/*.Utype:hover{
+    border-color: #000000;
+    border-radius: 40px;
+    border: 1.5px solid black;
+    box-shadow: 0 0 5px #248e9c,
+      0 0 25px #248e9c,
+      0 0 47px#248e9c,
+      0 0 10px#248e9c;
+
+    
+}*/
+
+.logoimg {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.form_container form .btn{
+    flex: 1 1 7rem;
+    display: grid;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background:#B8860B;
+    color:black;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form_container form .btn:hover{
+    background:darkblue;
+}
+.form_container form .btn:hover{
+    background: rgb(101, 101, 203);
+    border-color: #000000;
+    border-radius: 40px;
+    border: 1.5px solid black;
+    box-shadow: 0 0 5px #248e9c,
+      0 0 25px #248e9c,
+      0 0 47px#248e9c,
+      0 0 10px#248e9c;
+
+}
+.heading{
+    text-align: center;
+    color:#B8860B;
+}
+.heading span {
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+.heading h1{
+    font-size: 2rem;
+}
+.text_fill_form p {
+    margin: 1.5rem 0 1.5rem;
+    text-align: center;
+}
+.input-box{
+    flex: 1 1 8rem;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.input-box span{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.input-box input{
+    padding: 50%, 50%;
+    display: grid;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.input-box input:hover{
+    background:#0575E6(142, 142, 173);
+    background:#0575E6(142, 142, 173);
+    border-color: #000000;
+    border-radius: 40px;
+    border: 1.5px solid black;
+    box-shadow: 0 0 5px #248e9c,
+      0 0 25px #248e9c,
+      0 0 47px#248e9c,
+      0 0 10px#248e9c;
+
+
+}
+.register-container .login-text {
+    color: #111;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+.logotext{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.trophy img{
+    width: 100px;
+    margin-left: 30px;
+    
+}
+.logotext{
+    display: flex;
+}
+.para{
+    font-weight: 50;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+    
+}
+.store img{
+    width: 150px;
+}
+.store h6{
+    color: white;
+    left: 1rem;
+}
+.store{
+  
+  margin-left: 100px;
+  margin-top: 5px;
+ 
+    
+}
+.store .c2{
+    display: flex;
+    gap: 1rem;
+}
+.store .c2 a img:hover{
+    background-color: red;
+    transition: all ease 0.5s;
+}
+.newsletter{
+    
+    background-color: black;
+}
+.social{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 100px;
+   
+}
+.social a img{
+    
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+.social a img:hover{
+    background-color: grey;
+    transition: all ease 0.5s;
+}
+.copyright{
+    
+    border-style: dashed;
+    color: rgb(185, 184, 184);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+  
+}
+.t1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+.t3{
+    color: rgb(255, 170, 170);
+    text-align: center;
+}
+.t4{
+    color: beige;
+    text-align: center;
+}
+.t5{
+    color: gray;
+    text-align: center;
+}
+.input-box{
+    padding-left: 40rem;
+}
+.input-box .btn{
+    flex: 1 1 7rem;
+    display: block;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #B8860B;
+    color: black;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;    
+}
+.input-box .btn:hover{
+    background: darkblue;
+}
